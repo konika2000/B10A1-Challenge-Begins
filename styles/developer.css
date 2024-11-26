@@ -1,0 +1,100 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* nav */
+nav{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.nav-title{
+font-size: 28px;
+font-weight: 800;
+}
+.nav-btn{
+    font-size: 20px;
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+}
+/* banner */
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    justify-items: center;
+    align-items: center;
+    padding: 45px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+   
+}
+
+.banner-btn{
+    color:white ;
+    background-color: black;
+    font-size: 20px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+
+}
+/* main */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* why web development */
+.why-web-development{
+    background-color:rgba(13, 19, 33, 0.02) ;
+    padding: 80px 97px 80px 97px;
+}
+.top{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:38px ;
+    margin-bottom: 30px;
+    border-radius: 8px;
+   
+}
+.title{
+  font-size: 24px;  
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.detail{
+    font-size:16px ;
+    font-weight: 400;
+    color:rgb(13, 19, 33) ;
+}
+.about-development{
+    max-width: 477px;
+
+}
+.btn{
+    padding:12px 20px ;
+    background-color: white;
+}
+.video{
+   text-align: center;
+}
+/* my current target */
+
+/* common */
+.heading{
+   font-size: 32px; 
+   font-weight: 800;
+   text-align: center;
+}
+.description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(13, 19, 33) ;
+    margin-bottom: 40px;
+}
